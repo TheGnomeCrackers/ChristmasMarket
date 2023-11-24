@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#navbar {
+    background-color: #831111f4;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #e1fdc9;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#navbar a:hover {
+    background-color: #02e245a6;
+    color: rgb(255, 0, 0);
+    font-family: cursive;
+}
+footer {
+    background-color: #9b2929;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: transform 1s;
+}
+footer a:hover {
+    background-color: #1cff6054;
+}
+a {
+    text-decoration: none;
+    color: #ff0000f4;
+    transition: color 750ms;
+}
+a:hover {
+    color: green;
+}
+body {
+    background-color: #02e245a6;
+}
+button {
+    border-radius: 10px;
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    text-transform: capitalize;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    background-color: rgb(251, 141, 141);
+    color: #11ff00;
+    border: none;
+    transition: font-size 2s;
+}
+button:hover {
+    font-size: 25px;
+    box-shadow: 0 0 20px rgb(0, 255, 13);
+    background-color: #fd0707;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    right: 0;
+    bottom: 50%;
+
+}

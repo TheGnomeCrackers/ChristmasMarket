@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GnomeCracker's Home</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="icon" href="Images/gnome.png">
+</head>
+<body>
+    <div id="navbar">
+        <a href="Home.html"><img src="Images/gnome.png" alt="" height="35 "></a>
+        <a href="Home.html">Home</a>
+        <a href="Products.html">Products</a>
+        <a href="contact.html">Contact Us</a>
+    </div>
+    <h1 align="center">View Our Products</h1>
+    <center>
+        <a href="Products.html"><button align="center">VIEW NOW</button></a>    
+        <h1>About Us!</h1>
+        <div class="about"></div><p>
+            We're the Gnome Crackers, a festive team excited for the December 1st Christmas market. With whimsical gnomes, we're creating magic and giving back—all proceeds go to the All Children's Foundation. Join us in spreading joy!</p></div>
+            <h1>Who is this?</h1>
+            <p>We are the Gnome Crackers a team for the christmas market. Our members are Jonah, Afton, Jeffrey, Bobby , and Ethan.</p>
+            <h1>What are we selling?</h1>
+            <p>We are selling Snow Gnomes to brighten up the season. An addition is that we are selling Christmas jibbitz for your crocs.</p>
+            <h1>What is the Christmas Market?</h1>
+            <p> The Christmas Market is a market that the fifth graders of Lakewood Catholic Academy host. There are multiple teams selling different items for the season.</p>
+    </center>
+    <div id="modal">
+        <h2>Hello</h2>
+        <p>Gnomebody should be alone for Christmas, so buy our Gnome so you're not alone.</p>
+        <button onclick="closeModal()">Close</button>
+    </div>
+    <br>
+    <footer>
+        <div>
+            <a href="Home.html">Home</a>
+            <a href="Products.html">Products</a>
+            <a href="Contact.html">Contact Us</a>
+        </div>
+        <div>
+            Contact Info:
+            <a href="mailto:thegnomecrackers@gmail.com">TheGnomeCrackers@gmail.com</a>
+        </div>
+    </footer>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("modal").style.display = "block";
+        document.getElementById("overlay").style.display = "block";
+    });
+
+    function closeModal() {
+
+        document.getElementById("modal").style.display = "none";
+        document.getElementById("overlay").style.display = "none";
+    }
+</script>
+</body>
+</html>
