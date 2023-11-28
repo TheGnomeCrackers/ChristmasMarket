@@ -80,5 +80,17 @@
         <p>Tap the sides of the image to switch pictures!</p>
         <button onclick="closeModal()">Close</button>
     </div>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("modal").style.display = "block";
+        document.getElementById("overlay").style.display = "block";
+    });
+
+    function closeModal() {
+
+        document.getElementById("modal").style.display = "none";
+        document.getElementById("overlay").style.display = "none";
+    }
+</script>
   </body>
 </html>
